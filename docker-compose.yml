@@ -1,0 +1,8 @@
+version: '3'
+services:
+  rails:
+    image: workschool/rails:7-0.1
+    volumes:
+      - .:/workspace
+    ports:
+      - "3000:3000"
