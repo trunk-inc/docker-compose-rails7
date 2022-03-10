@@ -2,6 +2,7 @@ version: '3'
 services:
   rails:
     image: workschool/rails:7-0.1
+    tty: true
     volumes:
       - .:/workspace
     ports:
